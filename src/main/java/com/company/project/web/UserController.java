@@ -53,4 +53,8 @@ public class UserController {
         PageInfo pageInfo = new PageInfo(list);
         return ResultGenerator.genSuccessResult(pageInfo);
     }
+    
+     public void showConfilct() {
+        System.out.println("this is confict");
+    }
 }
